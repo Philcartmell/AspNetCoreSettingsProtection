@@ -8,13 +8,10 @@
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
     public class IsProtectedAttribute : Attribute
     {
-        public const string DefaultProtectorPurpose = "DEFAULT";
-
-        public IsProtectedAttribute()
-            : this(DefaultProtectorPurpose)
-        {
-        }
-
+        /// <summary>
+        /// Mark property as protected by specific protector purpose.
+        /// </summary>
+        /// <param name="protectorPurpose">Decrypt using specified protector purpose.</param>
         public IsProtectedAttribute(string protectorPurpose)
         {
             ProtectorPurpose = protectorPurpose;

@@ -7,8 +7,11 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
-    using System.Text;
 
+    /// <summary>
+    /// Unprotect a given option
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     internal class UnprotectOption<T> : IPostConfigureOptions<T>
         where T : class
     {
