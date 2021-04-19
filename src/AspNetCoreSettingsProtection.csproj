@@ -5,7 +5,12 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Version>0.0.1</Version>
-    <PackageLicenseExpression></PackageLicenseExpression>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>AspNetCoreSettingsProtector is an ASP.NET Core settings protection solution designed to use the built-in data protection library</Description>
+    <PackageTags>aspnetcore protection settings encryption</PackageTags>
+    <RepositoryUrl>https://github.com/Philcartmell/AspNetCoreSettingsProtection</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Authors>Phil Cartmell</Authors>
   </PropertyGroup>
 
   <ItemGroup>
