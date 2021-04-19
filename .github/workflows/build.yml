@@ -20,3 +20,4 @@ jobs:
       working-directory: src
     - name: Build
       run: dotnet build AspNetCoreSettingsProtection.csproj --configuration Release --no-restore
+      working-directory: src
